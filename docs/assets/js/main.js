@@ -1,0 +1,1 @@
+"use strict";const inputText=document.querySelector(".js_input"),numberKey=document.querySelector(".js_nk"),key=document.querySelector(".js_k"),code=document.querySelector(".js_c");function handleWrite(e){numberKey.innerHTML=e.keyCode,key.innerHTML=e.key,code.innerHTML=e.code,inputText.value=""}inputText.addEventListener("keyup",handleWrite);
