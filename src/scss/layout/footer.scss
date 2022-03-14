@@ -10,3 +10,16 @@
     font-size: 16px;
     font-weight: 800;
   }
+
+  @media (min-width:768px){
+    .footersec{
+      transform: translateY(200px);
+    }
+  }
+
+  @media (min-width:1200px){
+    .footersec{
+      transform: translateY(390px);
+      padding: 15px;
+     }
+  }

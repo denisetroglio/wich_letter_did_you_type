@@ -1,5 +1,5 @@
-.background{
-   background-image: url("./assets/images/1518.jpg");
+.background {
+  background-image: url("../images/1518.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100%;
 }
+
 .title {
   text-align: center;
   font-size: 22px;
@@ -114,3 +115,50 @@
   border-bottom: 1px solid#42bedf;
   background-color: #42bedf;
 }
+@media (min-width:768px){
+  .title{
+    font-size:30px;
+  }
+  .numsec {
+    width: 350px;
+    height: 150px;
+  }
+  .keysec{
+    width: 350px;
+    height: 150px;
+  }
+  .codesec{
+    width: 350px;
+    height: 150px;
+  }
+  .number{
+    font-size: 30px;
+  }
+  .key{
+    font-size: 30px;
+  }
+  .keycode{
+    font-size: 30px;
+  }
+  .nkey{
+    font-size: 30px;
+  }
+  .k{
+    font-size: 30px;
+  }
+  .code{
+    font-size: 30px;
+  }
+  }
+
+  @media (min-width:1200px){
+    .sectionKeys {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 40px;
+    }
+  }
+
+
