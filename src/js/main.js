@@ -5,7 +5,6 @@ const numberKey = document.querySelector('.js_nk');
 const key = document.querySelector('.js_k');
 const code = document.querySelector('.js_c');
 
-
 function handleWrite(event) {
   numberKey.innerHTML = event.keyCode;
   key.innerHTML = event.key;
