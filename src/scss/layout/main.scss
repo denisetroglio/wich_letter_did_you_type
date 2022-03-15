@@ -7,7 +7,24 @@
   height: 100vh;
   width: 100%;
 }
-
+//Mobile input:
+.mobilesec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile{
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  background-color:#42bedf;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 800;
+  border: 3px solid #e02423;
+  font-size: 18px;
+}
 .title {
   text-align: center;
   font-size: 22px;
@@ -158,6 +175,9 @@
       justify-content: center;
       align-items: center;
       margin: 40px;
+    }
+    .mobile{
+      display: none;
     }
   }
 
